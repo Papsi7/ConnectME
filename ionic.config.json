@@ -1,0 +1,7 @@
+{
+  "name": "ConnectME",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
