@@ -1,0 +1,47 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button></ion-back-button>
+      </ion-buttons>
+      <ion-title>Create Your Profile</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <br>
+    <form>
+      <ion-item>
+        <ion-avatar slot="start">
+          <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+        </ion-avatar>
+        <ion-button>select avatar</ion-button>
+      </ion-item>
+      <br>
+      <br>
+      <br>
+      <ion-item lines="full">
+        <ion-label position="floating">First name</ion-label>
+        <ion-input type="text" required></ion-input>
+      </ion-item>
+      <ion-item lines="full">
+        <ion-label position="floating">Last name</ion-label>
+        <ion-input type="text" required></ion-input>
+      </ion-item>
+      <ion-item lines="full">
+        <ion-label position="floating">Age</ion-label>
+        <ion-input type="text" required></ion-input>
+      </ion-item>
+      <ion-item lines="full">
+        <ion-label position="floating">Gender</ion-label>
+        <ion-input type="password" required></ion-input>
+      </ion-item>
+      <ion-item lines="full">
+        <ion-label position="floating">Birthday</ion-label>
+        <ion-input type="password" required></ion-input>
+      </ion-item>
+      <ion-row>
+        <ion-col>
+          <ion-button type="submit" color="danger" expand="block" routerLink="/landing">Create</ion-button>
+        </ion-col>
+      </ion-row>
+    </form>
+  </ion-content>

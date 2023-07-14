@@ -1,0 +1,64 @@
+<ion-header class="ion-no-border ion-padding-horizontal">
+  <ion-toolbar color="light">
+    <ion-title mode="md">Hi, Spike</ion-title>
+    <ion-buttons slot="end">
+      <ion-fab-button size="small" color="white">
+        <ion-icon name="notification-outline"color=primary></ion-icon>
+            </ion-fab-button>
+    </ion-buttons>
+    <ion-buttons slot="start">
+      <ion-avatar>
+        <ion-img src="asset/gb.jpg"></ion-img>
+      </ion-avatar>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="light" class="ion-padding">
+
+  <ion-row>
+    <ion-col>
+      <ion-label class="big-heading">
+        <p class="ion-text-start">Where Do</p>
+        <p class="ion-text-start marginTop">You Want To Go?</p>
+      </ion-label>
+    </ion-col>
+  </ion-row>
+  <ion-searchbar class="ion-margin-buttom" searchIcon="undifined" placeholder="Search for place..." color="white" debounce="800">
+  <ion-fab-button size="small" color="white">
+    <ion-icon name="search-outline" color="primary"animated></ion-icon>
+  </ion-fab-button>
+</ion-searchbar>
+
+<ion-row class="ion-margin-top">  
+  <ion-label class="ion-margin-start heading">Categories</ion-label>
+  <ion-card>
+    <ion-item lines="none">
+        <img class="displayed"  height="150 px" width="150 px" src="assets/gb.jpg">       
+      <ion-label class="ion-text-wrap"></ion-label>
+    </ion-item>
+  </ion-card>
+</ion-row>
+
+<ion-row class="ion-margin-top">
+  <ion-col size="8">
+  <ion-label class="ion-margin-start heading">
+    Top Trips
+    <ion-icon name="chevron-down-outline"></ion-icon>
+  </ion-label>
+</ion-col>
+<ion-col size="4">
+  <ion-button fill="clear" color="meduim" size="small">
+    Explore
+    <ion-icon color="primary" name="chevron-forward-outline" slot="end"></ion-icon>
+  </ion-button>
+</ion-col>
+<ion-card>
+  <ion-item lines="none">
+      <img class="displayed"  height="150 px" width="150 px" src="assets/gb.jpg">
+    <ion-label class="ion-text-wrap"></ion-label>
+  </ion-item>
+</ion-card>
+</ion-row>
+</ion-content>
+
