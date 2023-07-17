@@ -1,6 +1,6 @@
 <ion-header class="ion-no-border ion-padding-horizontal">
   <ion-toolbar color="light">
-    <ion-title mode="md">Hi, Spike</ion-title>
+    <ion-title mode="md">Explore</ion-title>
     <ion-buttons slot="end">
       <ion-fab-button size="small" color="white">
         <ion-icon name="notification-outline"color=primary></ion-icon>
@@ -8,7 +8,7 @@
     </ion-buttons>
     <ion-buttons slot="start">
       <ion-avatar>
-        <ion-img src="asset/gb.jpg"></ion-img>
+        <ion-img src="assets/Maps.jpg"></ion-img>
       </ion-avatar>
     </ion-buttons>
   </ion-toolbar>
@@ -30,35 +30,124 @@
   </ion-fab-button>
 </ion-searchbar>
 
-<ion-row class="ion-margin-top">  
-  <ion-label class="ion-margin-start heading">Categories</ion-label>
-  <ion-card>
-    <ion-item lines="none">
-        <img class="displayed"  height="150 px" width="150 px" src="assets/gb.jpg">       
-      <ion-label class="ion-text-wrap"></ion-label>
-    </ion-item>
-  </ion-card>
-</ion-row>
-
 <ion-row class="ion-margin-top">
-  <ion-col size="8">
-  <ion-label class="ion-margin-start heading">
-    Top Trips
-    <ion-icon name="chevron-down-outline"></ion-icon>
-  </ion-label>
-</ion-col>
-<ion-col size="4">
-  <ion-button fill="clear" color="meduim" size="small">
-    Explore
-    <ion-icon color="primary" name="chevron-forward-outline" slot="end"></ion-icon>
-  </ion-button>
-</ion-col>
-<ion-card>
-  <ion-item lines="none">
-      <img class="displayed"  height="150 px" width="150 px" src="assets/gb.jpg">
-    <ion-label class="ion-text-wrap"></ion-label>
-  </ion-item>
-</ion-card>
-</ion-row>
-</ion-content>
+   <ion-col size="8">
+   <ion-label class="ion-margin-start heading">
+   Top Trips
+   <ion-icon name="chevron-down-outline"></ion-icon>
+   </ion-label>
+  </ion-col>
+  <ion-col size="4">
+   <ion-button fill="clear" color="meduim" size="small">
+  Explore
+   <ion-icon color="primary" name="chevron-forward-outline" slot="end"></ion-icon>
+   </ion-button>
+  </ion-col>
+  <ion-card>
+
+    <ion-card>
+    <ion-card-header>
+     </ion-card-header>
+    
+    <ion-grid>
+     <ion-row class="ion-justify-content-center">
+     <ion-col size="6"><ion-card>
+     <img class="displayed"  height="70 px" width="110 px"  src="assets/newyork.jpg" />
+     <ion-button type="submit" color="danger" expand="block" routerLink="/newyork">New York</ion-button>
+     <ion-card-header>
+     <ion-card-subtitle>$ 125</ion-card-subtitle>
+    
+    
+     
+     </ion-card-header>
+     
+    <ion-card-content>
+    
+     <ion-icon name="star"></ion-icon>
+    <ion-icon name="star"></ion-icon>
+     <ion-icon name="star"></ion-icon>
+     <ion-icon name="star"></ion-icon>
+     <ion-icon name="star-half"> </ion-icon>
+     
+    
+     </ion-card-content>
+     </ion-card></ion-col>
+    <ion-col size="6"><ion-card>
+     <img  class="displayed"  height="70 px" width="110 px" src="assets/paris.jpg"/>
+     <ion-button type="submit" color="danger" expand="block" routerLink="/paris">Paris</ion-button>
+     <ion-card-header>
+     <ion-card-subtitle>$ 110</ion-card-subtitle>
+    
+    
+    
+    </ion-card-header>
+   
+    <ion-card-content>
+    
+     <ion-icon name="star"></ion-icon>
+     <ion-icon name="star"></ion-icon>
+     <ion-icon name="star"></ion-icon>
+     <ion-icon name="star"></ion-icon>
+     <ion-icon name="star-half"></ion-icon>
+    
+     </ion-card-content>
+     </ion-card></ion-col>
+    </ion-row>
+     </ion-grid>
+     
+     <ion-grid>
+      <ion-row class="ion-justify-content-center">
+      <ion-col size="6"><ion-card>
+      <img  class="displayed"  height="70 px" width="110 px"   src="assets/spain.jpg" />
+      <ion-button type="submit" color="danger" expand="block" routerLink="/spain">Spain</ion-button>
+      <ion-card-header>
+      <ion-card-subtitle>$ 120</ion-card-subtitle>
+     
+     
+      
+      </ion-card-header>
+      
+     <ion-card-content>
+     
+      <ion-icon name="star"></ion-icon>
+     <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star-half"></ion-icon>
+      
+     
+      </ion-card-content>
+      </ion-card></ion-col>
+     <ion-col size="6"><ion-card>
+      <img  class="displayed"  height="70 px" width="110 px"  src="assets/japan.jpg"/>
+      <ion-button type="submit" color="danger" expand="block" routerLink="/japan">Japan</ion-button>
+      <ion-card-header>
+      <ion-card-subtitle>$ 127</ion-card-subtitle>
+     
+     
+     
+     </ion-card-header>
+    
+     <ion-card-content>
+     
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star-half"></ion-icon>
+     
+      </ion-card-content>
+      </ion-card></ion-col>
+     </ion-row>
+      </ion-grid>
+   
+
+      <div class="table-container">
+        <table id="table" class="form" style="height:850px;width:900px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
+        </table>
+        </div>
+        
+        
+
+
 

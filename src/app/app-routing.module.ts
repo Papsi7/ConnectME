@@ -31,6 +31,22 @@ const routes: Routes = [
     path: 'landing',
     loadChildren: () => import('./landing/landing.module').then( m => m.LandingPageModule)
   },
+  {
+    path: 'newyork',
+    loadChildren: () => import('./newyork/newyork.module').then( m => m.NewyorkPageModule)
+  },
+  {
+    path: 'paris',
+    loadChildren: () => import('./paris/paris.module').then( m => m.ParisPageModule)
+  },
+  {
+    path: 'spain',
+    loadChildren: () => import('./spain/spain.module').then( m => m.SpainPageModule)
+  },
+  {
+    path: 'japan',
+    loadChildren: () => import('./japan/japan.module').then( m => m.JapanPageModule)
+  },
 ];
 
 @NgModule({
