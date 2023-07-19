@@ -7,41 +7,72 @@
     </ion-toolbar>
   </ion-header>
   <ion-content>
-    <br>
-    <form>
-      <ion-item>
-        <ion-avatar slot="start">
-          <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
-        </ion-avatar>
-        <ion-button>select avatar</ion-button>
-      </ion-item>
-      <br>
-      <br>
-      <br>
-      <ion-item lines="full">
-        <ion-label position="floating">First name</ion-label>
-        <ion-input type="text" required></ion-input>
-      </ion-item>
-      <ion-item lines="full">
-        <ion-label position="floating">Last name</ion-label>
-        <ion-input type="text" required></ion-input>
-      </ion-item>
-      <ion-item lines="full">
-        <ion-label position="floating">Age</ion-label>
-        <ion-input type="text" required></ion-input>
-      </ion-item>
-      <ion-item lines="full">
-        <ion-label position="floating">Gender</ion-label>
-        <ion-input type="password" required></ion-input>
-      </ion-item>
-      <ion-item lines="full">
-        <ion-label position="floating">Birthday</ion-label>
-        <ion-input type="password" required></ion-input>
-      </ion-item>
-      <ion-row>
-        <ion-col>
-          <ion-button type="submit" color="danger" expand="block" routerLink="/landing">Create</ion-button>
-        </ion-col>
+    
+
+    <ion-card>
+      <ion-card-header>
+       </ion-card-header>
+      
+      <ion-grid>
+       <ion-row class="ion-justify-content-center">
+       <ion-col size="13"><ion-card>
+       <img class="displayed"  height="70 px" width="110 px"  src="assets/cathay.png" />
+       <ion-card-subtitle>Cathay Pacific Airlines</ion-card-subtitle>
+       <ion-button type="submit" color="danger" expand="block" routerLink="/book">$ 125</ion-button>
+       <ion-card-header>
+        
+       <ion-card-subtitle>3:15am-6:25pm</ion-card-subtitle>
+       <ion-card-subtitle>Business / 10 Seats</ion-card-subtitle>
+       <ion-card-subtitle>23h 10m</ion-card-subtitle>
+      
+       </ion-card-header>
+       
+       </ion-card></ion-col>
+      <ion-col size="13"><ion-card>
+       <img  class="displayed"  height="70 px" width="110 px" src="assets/cf.png"/>
+       <ion-card-subtitle>Cheap Flights Airlines</ion-card-subtitle>
+       <ion-button type="submit" color="danger" expand="block" routerLink="/book">$ 110</ion-button>
+       <ion-card-header>
+        <ion-card-subtitle>2:00am-3:255pm</ion-card-subtitle>
+        <ion-card-subtitle>Economy / 10 Seats</ion-card-subtitle>
+        <ion-card-subtitle>22h 35m</ion-card-subtitle>
+      
+      </ion-card-header>
+    
+       </ion-card></ion-col>
       </ion-row>
-    </form>
-  </ion-content>
+       </ion-grid>
+       
+       <ion-grid>
+        <ion-row class="ion-justify-content-center">
+        <ion-col size="13"><ion-card>
+        <img  class="displayed"  height="70 px" width="110 px"   src="assets/jal.png" />
+        <ion-card-subtitle>Japan Airlines</ion-card-subtitle>
+        <ion-button type="submit" color="danger" expand="block" routerLink="/book">$ 120</ion-button>
+        <ion-card-header>
+          <ion-card-subtitle>4:00am-5:25pm</ion-card-subtitle>
+          <ion-card-subtitle>Economy / 10 Seats</ion-card-subtitle>
+          <ion-card-subtitle>22h 35m</ion-card-subtitle>
+       
+        </ion-card-header>
+        
+      
+        </ion-card></ion-col>
+       <ion-col size="13"><ion-card>
+        <img  class="displayed"  height="70 px" width="110 px"  src="assets/sky.png"/>
+        <ion-card-subtitle>Skyscanner Airlines</ion-card-subtitle>
+        <ion-button type="submit" color="danger" expand="block" routerLink="/book">$ 127</ion-button>
+        <ion-card-header>
+          <ion-card-subtitle>6:15am-8:25pm</ion-card-subtitle>
+          <ion-card-subtitle>Business / 10 Seats</ion-card-subtitle>
+          <ion-card-subtitle>23h 10m</ion-card-subtitle>
+       
+       
+       
+       </ion-card-header>
+      
+      
+        </ion-card></ion-col>
+       </ion-row>
+        </ion-grid>
+     

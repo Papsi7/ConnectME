@@ -47,6 +47,10 @@ const routes: Routes = [
     path: 'japan',
     loadChildren: () => import('./japan/japan.module').then( m => m.JapanPageModule)
   },
+  {
+    path: 'book',
+    loadChildren: () => import('./book/book.module').then( m => m.BookPageModule)
+  },
 ];
 
 @NgModule({
