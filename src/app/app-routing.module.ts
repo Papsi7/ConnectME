@@ -51,6 +51,30 @@ const routes: Routes = [
     path: 'book',
     loadChildren: () => import('./book/book.module').then( m => m.BookPageModule)
   },
+  {
+    path: 'london',
+    loadChildren: () => import('./london/london.module').then( m => m.LondonPageModule)
+  },
+  {
+    path: 'australia',
+    loadChildren: () => import('./australia/australia.module').then( m => m.AustraliaPageModule)
+  },
+  {
+    path: 'italy',
+    loadChildren: () => import('./italy/italy.module').then( m => m.ItalyPageModule)
+  },
+  {
+    path: 'd.c',
+    loadChildren: () => import('./d.c/d.c.module').then( m => m.DCPageModule)
+  },
+  {
+    path: 'hongkong',
+    loadChildren: () => import('./hongkong/hongkong.module').then( m => m.HongkongPageModule)
+  },
+  {
+    path: 'california',
+    loadChildren: () => import('./california/california.module').then( m => m.CaliforniaPageModule)
+  },
 ];
 
 @NgModule({
